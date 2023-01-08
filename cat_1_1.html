@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body class="font_n1 bg_color_n1">
+<div data-group="main" data-role="container_wrapper">
+	<div data-group="main" data-role="header">
+		<h1 data-role="logo" class="bg_color_n3 text_color_n2"><img src="logo.svg">База знань</h1>
+	</div>
+
+	<div data-group="main" data-role="breadcrumbs">
+		<span data-group="main" data-role="breadcrumb" data-content="menu" class="bg_color_n3">
+			<input id="menu_controller" type="checkbox" name="menu" class="hide">
+			<label for="menu_controller">
+				<img src="menu.svg">
+			</label>
+			<div data-group="main" data-role="menu" class="bg_color_n2">
+				<ul>
+					<li>
+						<input id="index_html" type="checkbox" name="sub_menu" class="hide" checked>
+						<label for="index_html">
+							<span data-role="icon" data-state="closed">
+								+
+							</span> 
+							<span data-role="icon" data-state="opened">
+								-
+							</span> 
+							<a href="index.html">Головна</a>
+						</label>
+						<ul data-group="menu" data-role="sub_menu">
+							<li>
+								<input id="cat_1_html" type="checkbox" name="sub_menu" class="hide" checked>
+								<label for="cat_1_html">
+									<span data-role="icon" data-state="closed">
+										+
+									</span> 
+									<span data-role="icon" data-state="opened">
+										-
+									</span>
+									<a href="cat_1.html">Комп'ютерні науки</a>
+								</label>
+								<ul data-group="menu" data-role="sub_menu">
+									<li>
+										<input id="cat_1_1_html" type="checkbox" name="sub_menu" class="hide" checked>
+										<label for="cat_1_1_html">
+											<span data-role="icon" data-state="closed">
+												+
+											</span> 
+											<span data-role="icon" data-state="opened">
+												-
+											</span>
+											<a href="cat_1_1.html">Налаштування середовища</a>
+										</label>
+										<ul data-group="menu" data-role="sub_menu">
+											<li>
+												<a href="#">Ubuntu</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</span>
+		<span data-group="main" data-role="breadcrumb" class="bg_color_n3"><a href="index.html" class="dark_bg">Головна</a></span>
+		<span data-group="main" data-role="breadcrumb" class="bg_color_n3"><a href="cat_1.html" class="dark_bg">Комп'ютерні науки</a></span>
+		<span data-group="main" data-role="breadcrumb" class="bg_color_n3 text_color_n2">Налаштування середовища</span>
+	</div>
+
+	<div data-group="main" data-role="container" class="bg_color_n2">
+		<div data-group="card" data-role="content_wrapper">
+			<img data-group="card" data-role="left_image" src="cat_1_1_1.svg">
+			<div data-group="card" data-role="text">
+				<h2>Ubuntu</h2>
+				<ul data-role="short_desc">
+					<li>Встановлення</li>
+					<li>Налагодження</li>
+					<li>Виправлення помилок</li>
+				</ul>
+				<a href="#" style="">Переглянути ></a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

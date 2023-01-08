@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="290"
+   height="250"
+   viewBox="0 0 290 250"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="cat_1 (copy).svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.4570697"
+     inkscape:cx="43.237465"
+     inkscape:cy="77.896069"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ebecf0;fill-opacity:1;stroke:none;stroke-width:0.877571;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.1859951,124.73689 74.174455,1.7110153 H 216.27567 L 287.186,124.60129 216.1487,247.71101 H 74.284328 Z"
+       id="path434" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.917513;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect4579"
+       width="48.289608"
+       height="120.33575"
+       x="176.92761"
+       y="50.291744"
+       ry="2.3036747" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.917513px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 218.17496,60.674585 H 185.29431"
+       id="path4581" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.917513px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 218.19546,69.345922 H 185.31482"
+       id="path4581-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.917513px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 218.0902,77.420648 H 185.20955"
+       id="path4581-7" />
+    <rect
+       style="fill:#d3e8ef;fill-opacity:1;stroke:#000000;stroke-width:1.42823;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect912"
+       width="121.04266"
+       height="68.181953"
+       x="61.897404"
+       y="81.504829"
+       ry="1.8293638" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.714113;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect2309"
+       width="96.863373"
+       height="6.066751"
+       x="72.45092"
+       y="164.73367"
+       ry="1.7929826" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.714113px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 87.630402,164.79539 96.14696,150.04428"
+       id="path3763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.714113px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 154.53168,164.72422 -8.51656,-14.7511"
+       id="path3763-3" />
+    <path
+       id="rect4683"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.963402;stroke-linecap:square;paint-order:stroke markers fill"
+       d="m 101.00301,92.833101 38.67099,-0.04298 7.69795,7.579819 -0.0204,42.47312 h -46.34854 z"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 139.10944,92.506877 v 8.148553 h 8.37413"
+       id="path4685" />
+    <text
+       xml:space="preserve"
+       style="font-size:29.045px;line-height:1.25;font-family:Uroob;-inkscape-font-specification:Uroob;stroke-width:2.17838"
+       x="111.80513"
+       y="127.33469"
+       id="text4791"><tspan
+         sodipodi:role="line"
+         id="tspan4789"
+         x="111.80513"
+         y="127.33469"
+         style="stroke-width:2.17838">OS</tspan></text>
+  </g>
+</svg>

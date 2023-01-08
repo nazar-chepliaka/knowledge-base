@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48.000003"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="homepage.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="6.9894738"
+     inkscape:cx="65.884788"
+     inkscape:cy="39.70256"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4564"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect27515"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.896414;stroke-linecap:square;paint-order:stroke markers fill"
+       d="m 13.695442,20.042819 h 20.754245 c 1.617535,0 2.919738,1.302204 2.919738,2.919739 v 15.816227 c 0,1.617535 -1.302203,2.919739 -2.919738,2.919739 h -5.560131 l -0.002,-11.264114 -9.366865,-0.01595 -0.002,11.280061 h -5.823246 c -1.617535,0 -2.919738,-1.302204 -2.919738,-2.919739 V 22.962558 c 0,-1.617535 1.302203,-2.919739 2.919738,-2.919739 z"
+       sodipodi:nodetypes="sssssccccsssss" />
+    <path
+       id="rect27560"
+       style="fill:#ffffff;fill-opacity:0.996191;stroke:#ffffff;stroke-linecap:square;paint-order:stroke markers fill"
+       d="M 25.992997,7.2067263 41.109622,22.32335 c 1.041182,1.041183 0.707885,3.757627 -1.560271,3.758779 -10.703068,0.01009 -20.124228,0.0065 -30.832119,1e-6 C 6.5111911,26.08083 6.076411,23.364531 7.1175921,22.32335 L 22.234217,7.2067256 c 1.041182,-1.0411815 2.717598,-1.0411815 3.75878,7e-7 z"
+       sodipodi:nodetypes="ssccsss" />
+  </g>
+</svg>
