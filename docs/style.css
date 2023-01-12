@@ -225,7 +225,7 @@ input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu]
 }
 
 [data-group=breadcrumbs][data-role=content] {
-	padding: 5px 10px;
+	padding: 0px 10px;
   line-height: 24px;
 }
 
