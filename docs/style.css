@@ -331,17 +331,24 @@ input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] l
 	z-index: 3;
 	top: 0px;
 	right: 0px;
-	background: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.85);
 	height: 100%;
 	width: 100%;
+	background-image: url(close_txt_underlined.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] label[for=menu_controller]:hover {
+	background-image: url(close_txt.svg);
 }
 
 [data-group=main][data-role=menu] {
 	left: auto;
 	right: auto;
 	overflow: hidden;
-	top: 50px;
-	bottom: 50px;
+	top: 80px;
+	bottom: 30px;
 	width: 90%;
 	max-width: 700px;
 	z-index: 4;
