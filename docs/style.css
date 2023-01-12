@@ -29,7 +29,7 @@ hr {
 
 li.styled {
 	list-style: disc !important;
-  margin-left: 20px;
+  margin-left: 24px;
 }
 
 .hide {
@@ -223,13 +223,14 @@ input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu]
 	border-radius: 8px;
 }
 
-[data-group=breadcrumbs][data-role=container] td {
+[data-group=breadcrumbs][data-role=content] {
 	padding: 5px 10px;
-  line-height: 19px;
+  line-height: 24px;
 }
 
-[data-group=breadcrumbs][data-role=logo] {
-	background: #2d3a58;
+[data-group=breadcrumbs][data-role=logo_wrapper] {
+	background: #2d3a58;    
+	padding: 9px 10px 4px 10px;
 	border-radius: 8px;
 }
 
