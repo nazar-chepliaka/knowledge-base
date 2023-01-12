@@ -8,28 +8,8 @@ a {
 	color: #1a57b9;
 }
 
-.link {
-	text-decoration: underline;
-}
-
-.link:hover {
-	text-decoration: none;
-	cursor: pointer;
-}
-
 a:hover {
 	text-decoration: none;
-}
-
-hr {
-  height: 1px;
-  border: 0px;
-  background: #c4c4c4;
-}
-
-li.styled {
-	list-style: disc !important;
-  margin-left: 20px;
 }
 
 .hide {
@@ -60,13 +40,6 @@ li.styled {
   color: #ffffff;
 }
 
-[data-role=webpage_menu_title] {
-  font-size: 22px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #5a5a5a;
-  display: block;
-}
 
 [data-group=main][data-role=container_wrapper] {
 	max-width: 1100px;
@@ -140,21 +113,20 @@ li.styled {
 	list-style: none;
 }
 
-[data-group=main][data-role=menu] [data-role=section_item] {
+[data-group=main][data-role=menu] label {
   display: flex;
   align-items: center;
   cursor: pointer;
   margin: 10px 0px;
   padding: 8px 14px;
   padding-right: 20px;
-  font-size: 16px;
 }
 
-[data-group=main][data-role=menu] [data-role=section_item]:hover {
+[data-group=main][data-role=menu] label:hover {
   background: #e2ecff;
 }
 
-[data-group=main][data-role=menu] [data-role=section_item] > [data-role=icon] {
+[data-group=main][data-role=menu] label > [data-role=icon] {
 	margin-right: 12px;
   background: #2d3a58;
   border-radius: 8px;
@@ -166,11 +138,11 @@ li.styled {
   box-sizing: border-box;
 }
 
-[data-group=main][data-role=menu] [data-role=section_item] > [data-role=icon][data-state=closed] {
+[data-group=main][data-role=menu] label > [data-role=icon][data-state=closed] {
   display: flex;
 }
 
-[data-group=main][data-role=menu] [data-role=section_item] > [data-role=icon][data-state=opened] {
+[data-group=main][data-role=menu] label > [data-role=icon][data-state=opened] {
   display: none;
 }
 
@@ -178,76 +150,51 @@ input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] [
 	display: block;
 }
 
-ul[data-group=menu][data-role=sub_menu] {
-	display: block;
-	margin-left: 700px;
-	padding: 15px;
+[data-group=menu][data-role=sub_menu] {
+	display: none;
 }
-/*
-input[type=radio][name=sub_menu]:checked + label [data-role=icon][data-state=opened]{
+
+input[type=checkbox][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] label {
+	background: #ebecf0;
+}
+
+input[type=checkbox][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] label:hover {
+  background: #e2ecff;
+}
+
+input[type=checkbox][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] > li > label [data-role=icon][data-state=opened] {
 	display: flex;
-  padding: 0px 10px;
 }
 
-input[type=radio][name=sub_menu]:checked + label [data-role=icon][data-state=closed] {
+input[type=checkbox][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] > li > label [data-role=icon][data-state=closed] {
 	display: none;
 }
 
-input[type=radio][name=sub_menu]:checked + label a {
-	display: none;
-}
-
-input[type=radio][name=sub_menu]:checked + label {
-	z-index: 2;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-}*/
-
-input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] {
+input[type=checkbox][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] {
+	display: block;
 	position: absolute;
 	background: #ffffff;
 	right: 0px;
 	left: 0px;
 	top: 0px;
 	bottom: 0px;
-	margin-left: 0px;
 }
 
-input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] [data-group=menu][data-role=sub_menu] {
-	position: absolute;
-}
-
-[data-group=breadcrumbs][data-role=container] {
-	border-radius: 8px;
-}
-
-[data-group=breadcrumbs][data-role=container] td {
-	padding: 5px 10px;
-  line-height: 19px;
-}
-
-[data-group=breadcrumbs][data-role=logo] {
-	background: #2d3a58;
-	border-radius: 8px;
-}
-
-i[data-role=webpage_link] {
-  margin: 20px;
-  display: block;
-  font-size: 14px;
-}
-
-[data-role=section_item] img {
-	margin-right: 10px;
-}
-
-
-/*input[type=radio][name=sub_menu]:checked + label + [data-group=menu][data-role=sub_menu] > li > [data-group=menu][data-role=sub_menu] {
+input[type=checkbox][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] > li > [data-group=menu][data-role=sub_menu] {
 	display: block;
-	margin-left: 0px;
-}*/
+}
+
+[data-group=menu][data-role=sub_menu] li > a {
+	display: block;
+  padding: 8px;
+  padding-left: 56px;
+  margin: 10px 0px;
+  padding-right: 20px;
+}
+
+[data-group=menu][data-role=sub_menu] li > a:hover {
+  background: #e2ecff;
+}
 
 [data-group=main][data-role=breadcrumb] img {
 	height: 24px;
@@ -282,7 +229,7 @@ img[data-group=card] {
 	margin-bottom: 0px;
 }
 
-h1[data-role=logo] {
+[data-role=logo] {
 	font-weight: 300;
   padding: 12px 18px;
   margin-top: 0px;
@@ -292,7 +239,7 @@ h1[data-role=logo] {
   align-items: center;
 }
 
-h1[data-role=logo] img {
+[data-role=logo] img {
 	margin-right: 12px;
 }
 
@@ -337,7 +284,6 @@ input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] l
 [data-group=main][data-role=menu] {
 	left: auto;
 	right: auto;
-	overflow: hidden;
 	top: 50px;
 	bottom: 50px;
 	width: 90%;
@@ -347,7 +293,7 @@ input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] l
 
 
 /* z-index loop */
-/*
+
 ul[data-group=menu][data-role=sub_menu] {
 	z-index: 1;
 }
@@ -358,4 +304,4 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 
 ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] {
 	z-index: 3;
-}*/
+}

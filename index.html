@@ -20,57 +20,82 @@
 	<div data-group="main" data-role="breadcrumbs">
 		<span data-group="main" data-role="breadcrumb" data-content="menu" class="bg_color_n3">
 			<input id="menu_controller" type="checkbox" name="menu" class="hide">
-			<label for="menu_controller">
-				<img src="menu.svg">
-			</label>
-			<div data-group="main" data-role="menu" class="bg_color_n2">
-				<ul>
-					<li>
-						<input id="index_html" type="checkbox" name="sub_menu" class="hide" checked>
-						<label for="index_html">
-							<span data-role="icon" data-state="closed">
-								+
-							</span> 
-							<span data-role="icon" data-state="opened">
-								-
-							</span> 
-							<a href="index.html">Головна</a>
-						</label>
-						<ul data-group="menu" data-role="sub_menu">
-							<li>
-								<input id="cat_1_html" type="checkbox" name="sub_menu" class="hide">
-								<label for="cat_1_html">
-									<span data-role="icon" data-state="closed">
-										+
-									</span> 
-									<span data-role="icon" data-state="opened">
-										-
-									</span>
-									<a href="cat_1.html">Комп'ютерні науки</a>
-								</label>
-								<ul data-group="menu" data-role="sub_menu">
-									<li>
-										<input id="cat_1_1_html" type="checkbox" name="sub_menu" class="hide">
-										<label for="cat_1_1_html">
-											<span data-role="icon" data-state="closed">
-												+
-											</span> 
-											<span data-role="icon" data-state="opened">
-												-
-											</span>
-											<a href="cat_1_1.html">Налаштування середовища</a>
-										</label>
-										<ul data-group="menu" data-role="sub_menu">
-											<li>
-												<a href="#">Ubuntu</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
+			<div data-group="menu" data-role="wrapper">
+				<label for="menu_controller">
+					<img src="menu.svg">
+				</label>
+				<div data-group="main" data-role="menu" class="bg_color_n2">
+					<ul>
+						<li>
+							<input id="lvl1" type="radio" name="sub_menu" class="hide" checked>
+							<ul data-group="menu" data-role="sub_menu">
+								<li>
+									<table data-group="breadcrumbs" data-role="container">
+										<tr>
+											<td data-group="breadcrumbs" data-role="logo" valign="center">
+												<img src="logo.svg">
+											</td>
+											<td data-group="breadcrumbs" data-role="content" valign="center">
+												Головна
+											</td>
+										</tr>
+									</table>
+									<hr>
+									<i data-role="webpage_link">Вебсторінка для цього розділу: <a href="index.html">Головна</a></i>
+									<hr>
+									<span data-role="webpage_menu_title">Вміст розділу:</span>
+								</li>
+								<li>
+									<label for="lvl2_1" data-role="section_item"><img src="folder.svg">Комп'ютерні науки</label>
+									<input id="lvl2_1" type="radio" name="sub_menu" class="hide">
+									<ul data-group="menu" data-role="sub_menu">
+										<li>
+											<table data-group="breadcrumbs" data-role="container">
+												<tr>
+													<td data-group="breadcrumbs" data-role="logo" valign="center">
+														<img src="logo.svg">
+													</td>
+													<td data-group="breadcrumbs" data-role="content" valign="center">
+														<label for="lvl1" class="link">Головна</label> / Комп'ютерні науки
+													</td>
+												</tr>
+											</table>
+											<hr>
+											<i data-role="webpage_link">Вебсторінка для цього розділу: <a href="cat_1.html">Комп'ютерні науки</a></i>
+											<hr>
+											<span data-role="webpage_menu_title">Вміст розділу:</span>
+										</li>
+										<li>
+											<label for="lvl3_1" data-role="section_item"><img src="folder.svg">Налаштування комп'ютера</label>
+											<input id="lvl3_1" type="radio" name="sub_menu" class="hide">
+											<ul data-group="menu" data-role="sub_menu">
+												<li>
+													<table data-group="breadcrumbs" data-role="container">
+														<tr>
+															<td data-group="breadcrumbs" data-role="logo" valign="center">
+																<img src="logo.svg">
+															</td>
+															<td data-group="breadcrumbs" data-role="content" valign="center">
+																<label for="lvl1" class="link">Головна</label> / <label for="lvl2_1" class="link">Комп'ютерні науки</label> / Налаштування комп'ютера
+															</td>
+														</tr>
+													</table>
+													<hr>
+													<i data-role="webpage_link">Вебсторінка для цього розділу: <a href="cat_1_1.html">Налаштування комп'ютера</a></i>
+													<hr>
+													<span data-role="webpage_menu_title">Вміст розділу:</span>
+												</li>
+												<li class="styled">
+													<a href="#">Ubuntu</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</span>
 		<span data-group="main" data-role="breadcrumb" class="bg_color_n3 text_color_n2">Головна</span>
