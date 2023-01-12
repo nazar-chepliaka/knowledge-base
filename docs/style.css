@@ -202,9 +202,8 @@ ul[data-group=menu][data-role=sub_menu] {
 	display: block;
 	margin-left: 700px;
 	padding: 15px;
-	overflow-y: scroll;
 	overflow-x: hidden;
-	max-width: 100%;
+	overflow-y: scroll;
 }
 /*
 input[type=radio][name=sub_menu]:checked + label [data-role=icon][data-state=opened]{
@@ -240,6 +239,7 @@ input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu]
 
 input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu] [data-group=menu][data-role=sub_menu] {
 	position: absolute;
+	display: none;
 }
 
 [data-group=breadcrumbs][data-role=container] {
