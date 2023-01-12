@@ -80,6 +80,7 @@ li.styled {
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border-radius: 20px;
+	margin-top: 0.64em;
 }
 
 [data-group=main][data-role=breadcrumbs] {
@@ -100,7 +101,7 @@ li.styled {
   min-width: 44px;
   align-items: center;
   font-size: 17px;
-  margin-bottom: 1.34em;
+  margin-bottom: 0.7em;
 }
 
 [data-group=main][data-role=breadcrumb][data-content=menu] {
