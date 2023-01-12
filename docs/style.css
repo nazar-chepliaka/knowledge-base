@@ -119,6 +119,25 @@ li.styled {
   justify-content: center;
 }
 
+[data-group=main][data-role=breadcrumb][data-content=menu] label[for=menu_controller] {
+	width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+[data-group=main][data-role=breadcrumb][data-content=menu] label[for=menu_controller] [data-role=menu_icon] {
+	display: block;
+}
+
+[data-group=main][data-role=breadcrumb][data-content=menu] label[for=menu_controller] [data-role=close_menu_icon] {
+	display: none;
+}
+
+
 [data-group=main][data-role=breadcrumb][data-content=menu] label[for=menu_controller]:hover {
 	cursor: pointer;
 }
@@ -335,13 +354,21 @@ input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] l
 	background-color: rgba(0, 0, 0, 0.85);
 	height: 100%;
 	width: 100%;
-	background-image: url(close_txt_underlined.svg);
+	/*background-image: url(close_txt_underlined.svg);
 	background-position: top center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	align-items: flex-start;
+  justify-content: flex-end;
+  padding: 18px;
 }
 
-input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] label[for=menu_controller]:hover {
-	background-image: url(close_txt.svg);
+input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] label[for=menu_controller] [data-role=menu_icon] {
+	display: none;
+}
+
+input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] label[for=menu_controller] [data-role=close_menu_icon] {
+	display: block;
+	height: 34px;
 }
 
 [data-group=main][data-role=menu] {
