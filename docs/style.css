@@ -204,6 +204,7 @@ ul[data-group=menu][data-role=sub_menu] {
 	padding: 15px;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	max-width: 100%;
 }
 /*
 input[type=radio][name=sub_menu]:checked + label [data-role=icon][data-state=opened]{
