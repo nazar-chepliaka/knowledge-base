@@ -125,7 +125,7 @@ li.styled {
 
 [data-group=main][data-role=menu] {
 	display: none;
-	position: absolute;
+	position: fixed;
 	top: 54px;
   left: -10px;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
@@ -183,6 +183,7 @@ ul[data-group=menu][data-role=sub_menu] {
 	display: block;
 	margin-left: 700px;
 	padding: 15px;
+	overflow-y: scroll;
 }
 /*
 input[type=radio][name=sub_menu]:checked + label [data-role=icon][data-state=opened]{
@@ -327,7 +328,7 @@ input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] {
 }
 
 input[type=checkbox][name=menu]:checked + [data-group=menu][data-role=wrapper] label[for=menu_controller] {
-	position: absolute;
+	position: fixed;
 	z-index: 3;
 	top: 0px;
 	right: 0px;
