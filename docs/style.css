@@ -25,6 +25,7 @@ hr {
   height: 1px;
   border: 0px;
   background: #c4c4c4;
+  margin: 10px 0px;
 }
 
 li.styled {
@@ -186,7 +187,7 @@ li.styled {
 
 [data-group=main][data-role=menu] [data-role=section_item] > [data-role=icon] {
 	margin-right: 12px;
-  background: #1a212f;
+  background: #172030;
   border-radius: 8px;
   color: #fff;
   min-height: 30px;
@@ -262,15 +263,15 @@ input[type=radio][name=sub_menu]:checked + [data-group=menu][data-role=sub_menu]
 }
 
 [data-group=breadcrumbs][data-role=logo_wrapper] {
-	background: #1a212f;    
+	background: #172030;    
 	padding: 9px 10px 4px 10px;
 	border-radius: 8px;
 }
 
-i[data-role=webpage_link] {
-  margin: 20px;
+span[data-role=webpage_link] {
+  margin: 14px;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 [data-role=section_item] img {
