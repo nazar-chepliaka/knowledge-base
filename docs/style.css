@@ -95,6 +95,10 @@ li.styled {
 	margin-top: 0.64em;
 }
 
+[data-group=main][data-role=container].margin_top {
+	margin-top: 1.8em;
+}
+
 [data-group=main][data-role=breadcrumbs] {
 	box-sizing: border-box;
 	border-radius: 20px;
