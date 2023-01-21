@@ -470,6 +470,25 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
   position: relative;
 }
 
+[data-group=card][data-role=link] {
+	display: block;
+	width: 100%;
+	background: #3C84C6; 
+	padding: 14px; 
+	border-radius: 6px; 
+	text-align: center;
+	box-sizing: border-box; 
+	color: #fff;
+	text-decoration: none;
+	margin-top: -51px; 
+	font-size: 17px;
+	position: absolute;
+}
+
+[data-group=card][data-role=link]:hover {
+	background: #3971a5;
+}
+
 
 
 @media screen and (max-width:1022px){
