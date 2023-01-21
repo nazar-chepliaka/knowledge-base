@@ -445,6 +445,7 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 	margin: 0 auto;
 	column-gap: 28px;
 	position: relative;
+	row-gap: 24px;
 }
 
 [data-goup=column][data-role=card] {
@@ -501,6 +502,5 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 @media screen and (max-width:744px){
 	[data-group=main][data-role=col_3] {
 		grid-template-columns: repeat(1,1fr);
-		row-gap: 24px;
 	}
 }
