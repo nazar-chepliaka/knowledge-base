@@ -486,6 +486,10 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 	width: 240px;
 }
 
+[data-group=card][data-role=wrapper].flex [data-role=image] img{
+	max-width: 100%;
+}
+
 [data-group=card][data-role=wrapper].flex [data-group=card][data-role=link] {
 	display: block;
 	background: #75bba6; 
@@ -516,7 +520,7 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 }
 
 [data-group=main][data-role=container].custom_margin {
-	margin-top: 34px;
+	margin-top: 28px;
 }
 
 [data-group=main][data-role=col_3] [data-group=card][data-role=link]:hover {
