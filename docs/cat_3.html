@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta data-rh="true" name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<title>Головна</title>
+	<title>Інформаційні ресурси</title>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
 				<div data-group="main" data-role="menu" class="bg_color_n2">
 					<ul>
 						<li>
-							<input id="lvl1" type="radio" name="sub_menu" class="hide" checked>
+							<input id="lvl1" type="radio" name="sub_menu" class="hide">
 							<ul data-group="menu" data-role="sub_menu">
 								<li>
 									<table data-group="breadcrumbs" data-role="container">
@@ -52,7 +52,7 @@
 								</li>
 								<li>
 									<label for="lvl2_1" data-role="section_item"><img src="folder.svg">Комп'ютерні науки</label>
-									<input id="lvl2_1" type="radio" name="sub_menu" class="hide">
+									<input id="lvl2_1" type="radio" name="sub_menu" class="hide" checked>
 									<ul data-group="menu" data-role="sub_menu">
 										<li>
 											<table data-group="breadcrumbs" data-role="container">
@@ -101,82 +101,65 @@
 										</li>
 									</ul>
 								</li>
-								<li class="styled">
-									<a href="#">Словник</a>
-								</li>
-								<li class="styled">
-									<a href="#">Інформаційні ресурси</a>
-								</li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</span>
-		<span data-group="main" data-role="breadcrumb" class="bg_color_n3 text_color_n2">Головна</span>
+		<span data-group="main" data-role="breadcrumb" class="bg_color_n3"><a href="index.html" class="dark_bg">Головна</a></span>
+		<span data-group="main" data-role="breadcrumb" class="bg_color_n3 text_color_n2">Інформаційні ресурси</span>
 	</div>
 
-
-	<div data-group="main" data-role="col_3" class="margin_top">
-		<div data-goup="column" data-role="card">
+	<div data-group="main" data-role="container" class="bg_color_n2">
+		<div data-group="grids" data-role="catalog">
+			<div data-group="card" data-role="wrapper" class="border_right">
+				<table>
+					<tr>
+						<td><img src="Group13.svg"></td>
+						<td valign="top">
+							<h2>
+								Дизайн
+							</h2>
+							<a href="#" data-group="card" data-role="link">Переглянути</a>
+						</td>
+					</tr>
+				</table>
+			</div>
 			<div data-group="card" data-role="wrapper">
-				<div data-group="card" data-role="container">
-					<div style="text-align:center;">
-						<img data-group="card" data-role="left_image" src="Group1.svg">
-						
-					</div>
-					<div data-group="card" data-role="text">
-						<h2>Словник</h2>
-						<ul data-role="short_desc" style="">
-							<li>Тлумачення</li>
-							<li>Синоніми та антоніми</li>
-							<li>Приклади в реченнях</li>
-						</ul>
-					</div>
-				</div>
-				<a href="#" data-group="card" data-role="link">Переглянути</a>
+				<table>
+					<tr>
+						<td><img src="Group17.svg"></td>
+						<td valign="top">
+							<h2>
+								Програмування
+							</h2>
+							<a href="#" data-group="card" data-role="link">Переглянути</a>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
+		
+		<!-- <table data-group="subcategories">
+			<tr>
+				<td><img src="folder_colored.svg"></td>
+				<td>Дизайн</td>
+			</tr>
+			<tr>
+				<td><img src="folder_colored.svg"></td>
+				<td>Програмування</td>
+			</tr>
+			<tr>
+				<td><img src="folder_colored.svg"></td>
+				<td>Інформаційні технології</td>
+			</tr>
+			<tr>
+				<td><img src="folder_colored.svg"></td>
+				<td>Музика</td>
+			</tr>
+		</table> -->
 
-		<div data-goup="column" data-role="card">
-			<div data-group="card" data-role="wrapper">
-				<div data-group="card" data-role="container">
-					<div style="text-align:center;">
-						<img data-group="card" data-role="left_image" src="Group3.svg">
-						
-					</div>
-					<div data-group="card" data-role="text">
-						<h2>Комп'ютерні науки</h2>
-						<ul data-role="short_desc">
-							<li>Налаштування середовища</li>
-							<li>Програмування</li>
-							<li>Загальна інформація</li>
-						</ul>
-					</div>
-				</div>
-				<a href="cat_1.html" data-group="card" data-role="link">Переглянути</a>
-			</div>
-		</div>
-
-		<div data-goup="column" data-role="card">
-			<div data-group="card" data-role="wrapper">
-				<div data-group="card" data-role="container">
-					<div style="text-align:center;">
-						<img data-group="card" data-role="left_image" src="Group7.svg">
-						
-					</div>
-					<div data-group="card" data-role="text">
-						<h2>Інформаційні ресурси</h2>
-						<ul data-role="short_desc">
-							<li>Посилання</li>
-							<li>Лайфхаки</li>
-							<li>Джерела натхнення</li>
-						</ul>
-					</div>
-				</div>
-				<a href="cat_3.html" data-group="card" data-role="link">Переглянути</a>
-			</div>
-		</div>
 	</div>
 </div>
 </body>
