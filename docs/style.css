@@ -498,7 +498,6 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 	font-size: 17px;
 	position: relative;
 	width: 180px;
-	text-decoration: underline;
 }
 
 [data-group=main][data-role=col_3] [data-group=card][data-role=link] {
