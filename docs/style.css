@@ -5,7 +5,8 @@ html, body {
 
 a {
 	/*color: #1252b9;*/
-	color: #1a57b9;
+	/*color: #1a57b9;*/
+	color: #225ebf;
 }
 
 .link {
@@ -484,6 +485,25 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 [data-group=card][data-role=wrapper].flex [data-role=image] {
 	text-align: center;
 	width: 240px;
+}
+
+[data-group=card][data-role=wrapper].flex ul {
+	margin-left: 20px;
+}
+
+[data-group=card][data-role=wrapper].flex ul li {
+	list-style: circle;
+}
+
+[data-group=card][data-role=wrapper].flex ul li a {
+	font-size: 16px;
+  line-height: 34px;
+  text-decoration: none;
+}
+
+[data-group=card][data-role=wrapper].flex ul li a .bold {
+	font-weight: bold;
+  text-decoration: underline;
 }
 
 [data-group=card][data-role=wrapper].flex [data-role=image] img{
