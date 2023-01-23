@@ -570,3 +570,51 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
 		width: 100%;
 	}
 }
+
+
+.tableslider {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pointer {
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: -14px;
+    left: -2px;
+}
+
+.pointer div {
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    height: 24px;
+    width: 40px;
+    padding: 2px 4px;
+    position: absolute;
+    text-align: center;
+    top: -14px;
+    left: -15px;
+    color: #000000;
+    border-radius: 4px;
+    font: 14px verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointer i {
+    color: #aaaaaa;
+}
+
+
+.designs {
+	margin-top: 50px;
+}
+
+
+.designs img {
+	display: inline;
+	max-width: 250px;
+	max-height: 250px;
+}
