@@ -585,15 +585,15 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
     left: -2px;
 }
 
-.pointer div {
+.pointer > div {
     background-color: #ffffff;
-    border: 1px solid #aaaaaa;
-    height: 24px;
+    border: 1px solid #000;
+    height: 41px;
     width: 40px;
-    padding: 2px 4px;
-    position: absolute;
+    padding: 4px 4px;
+    position: relative;
     text-align: center;
-    top: -14px;
+    top: -42px;
     left: -15px;
     color: #000000;
     border-radius: 4px;
@@ -601,10 +601,22 @@ ul[data-group=menu][data-role=sub_menu] ul[data-group=menu][data-role=sub_menu] 
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .pointer i {
     color: #aaaaaa;
+}
+
+.pointer i::after {
+  content: "";
+    position: absolute;
+    top: 9px;
+    left: 11px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
 }
 
 
