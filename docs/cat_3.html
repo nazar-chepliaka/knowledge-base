@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 	<link href="style.css" rel="stylesheet">
+	<link href="bootstrap-grid.min.css" rel="stylesheet">
 
 </head>
 <body class="font_n1 bg_color_n1">
@@ -112,26 +113,131 @@
 	</div>
 
 
+	<div data-group="section_grid" data-role="header">
+		<h2 class="text_color_n2">
+			<img src="Vector2.svg">Дизайн
+		</h2>
+		<a href="#" data-group="card" data-role="link">Розділи ></a>
+	</div>
 	<div data-group="main" data-role="container" class="bg_color_n2">
-		<div data-group="card" data-role="wrapper" class="flex">
-			<div data-role="image">
-				<img src="Group13.svg">
+		<div data-group="section_grid" data-role="wrapper">
+			<div class="row" data-role="section_grid">
+				<div class="col-12 col-sm-12 col-lg-4" data-role="section_item">
+					<div class="flex">
+						<div data-role="section_icon">
+							<img src="Group31.svg" style="max-width: 56px;">
+						</div>
+						<div>
+							<a href="design_elements.html" data-role="section_link"><span class="bold">Елементи</span></a> графічного інтерфейсу
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-lg-4" data-role="section_item">
+					<div class="flex">
+						<div data-role="section_icon">
+							<img src="Group31.svg" style="max-width: 56px;">
+						</div>
+						<div>
+							<a href="design_examples.html" data-role="section_link"><span class="bold">Приклади дизайнів</span></a> для натхнення
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-lg-4" data-role="section_item">
+					<div class="flex">
+						<div data-role="section_icon">
+							<img src="Group31.svg" style="max-width: 56px;">
+						</div>
+						<div>
+							<a href="#" data-role="section_link"><span class="bold">Витяги з мережі</span></a>, огляди інструментів та засобів
+						</div>
+					</div>
+				</div>
 			</div>
-			<div>
-				<h2>
-					Дизайн
-				</h2>
-				<a href="#" data-group="card" data-role="link">Переглянути ></a>
+			<div class="row" data-role="section_grid">
+				<div class="col-12 col-sm-12 col-lg-4" data-role="section_item">
+					<div class="flex">
+						<div data-role="section_icon">
+							<img src="Group31.svg" style="max-width: 56px;">
+						</div>
+						<div>
+							<a href="#" data-role="section_link"><span class="bold">Теоретична інформація</span></a>, джерела
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- <div data-group="card" data-role="wrapper" class="flex">
+			<div data-role="image">
+				<img src="Group31.svg">
 			</div>
 			<ul>
 				<li><a href="design_elements.html"><span class="bold">Елементи</span></a> графічного інтерфейсу</li>
-				<li><a href="design_examples.html"><span class="bold">Приклади дизайнів</span></a> для натхнення</li>
-				<li><a href="#"><span class="bold">Інструменти</span></a>, засоби, витяги з мережі</li>
-				<li><a href="#"><span class="bold">Теоретична інформація</span></a>, джерела</li>
 			</ul>
+		</div> -->
+
+		<!-- <ul>
+			<li><a href="design_elements.html"><span class="bold">Елементи</span></a> графічного інтерфейсу</li>
+			<li><a href="design_examples.html"><span class="bold">Приклади дизайнів</span></a> для натхнення</li>
+			<li><a href="#"><span class="bold">Витяги з мережі</span></a>, огляди інструментів та засобів</li>
+			<li><a href="#"><span class="bold">Теоретична інформація</span></a>, джерела</li>
+		</ul> -->
+	</div>
+
+
+<!-- 	<div data-group="main" data-role="container" class="custom_margin custom_padding">
+		<div data-group="card" data-role="wrapper" class="flex">
+			<div data-role="image">
+				<img src="Group17.svg">
+			</div>
+			<div>
+				<h2 class="text_color_n2">
+					Програмування
+				</h2>
+				<a href="#" data-group="card" data-role="link">Розділи ></a>
+			</div>
+		</div>
+	</div> -->
+
+	<hr data-role="sections_divider"></hr>
+
+	<div data-group="section_grid" data-role="header">
+		<h2 class="text_color_n2">
+			<img src="Group35.svg">Програмування
+		</h2>
+		<a href="#" data-group="card" data-role="link">Розділи ></a>
+	</div>
+	<div data-group="main" data-role="container" class="bg_color_n2">
+		<div data-group="section_grid" data-role="wrapper">
+			<div class="row" data-role="section_grid">
+				<div class="col-12 col-sm-12 col-lg-4" data-role="section_item">
+					<div class="flex">
+						<div data-role="section_icon">
+							<img src="Group31.svg" style="max-width: 56px;">
+						</div>
+						<div>
+							<a href="#" data-role="section_link"><span class="bold">Готові верстки</span></a> з вихідним кодом
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-lg-4" data-role="section_item">
+					<div class="flex">
+						<div data-role="section_icon">
+							<img src="Group31.svg" style="max-width: 56px;">
+						</div>
+						<div>
+							<a href="prog_links.html" data-role="section_link"><span class="bold">Інформаційні матеріали</span></a>, сервіси, репозиторії
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
+	<hr data-role="sections_divider"></hr>
+<!-- 
 	<div data-group="main" data-role="container" class="bg_color_n2 custom_margin">
 		<div data-group="card" data-role="wrapper" class="flex">
 			<div data-role="image">
@@ -141,14 +247,14 @@
 				<h2>
 					Програмування
 				</h2>
-				<a href="#" data-group="card" data-role="link">Переглянути ></a>
+				<a href="#" data-group="card" data-role="link">Розділи ></a>
 			</div>
 			<ul>
 				<li><a href="#"><span class="bold">Готові верстки</span></a> з вихідним кодом</li>
 				<li><a href="prog_links.html"><span class="bold">Інформаційні матеріали</span></a>, сервіси, репозиторії</li>
 			</ul>
 		</div>
-	</div>
+	</div> -->
 </div>
 
 <!-- <table data-group="subcategories">
