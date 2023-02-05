@@ -102,10 +102,10 @@ hr[data-role=sections_divider] {
   margin: 20px auto;
 }
 
-[data-group=section_grid][data-role=header] [data-group=card][data-role=link] {
+[data-group=card][data-role=link] {
     display: block;
     background: #75bba6;
-    padding: 8px 14px;
+    padding: 10px 14px;
     border-radius: 6px;
     text-align: center;
     box-sizing: border-box;
@@ -113,13 +113,35 @@ hr[data-role=sections_divider] {
     text-decoration: none;
     font-size: 17px;
     position: relative;
-    width: 180px;
-    margin-bottom: 20px;
+    margin: 0px auto;
+
+    margin-top: 20px;	
+    width: 100%;
+  max-width: 240px;
+}
+
+[data-group=section_grid][data-role=show_more] {
+    background: url(Rectangle206.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    padding-bottom: 20px;
+    border-radius: 20px;
 }
 
 [data-group=section_grid][data-role=wrapper] {
   box-sizing: border-box;
-  padding: 0px 40px;
+  padding: 0px 15px;
+  position: relative;
+  z-index: 1;
 }
 
 [data-role=section_grid] a[data-role=section_link] .bold {
@@ -138,7 +160,7 @@ hr[data-role=sections_divider] {
 }*/
 
 [data-role=section_grid] [data-role=section_icon] {
-  padding-right: 18px;
+  padding-right: 12px;
   box-sizing: border-box;
 }
 
@@ -171,6 +193,7 @@ hr[data-role=sections_divider] {
 	box-sizing: border-box;
 	border-radius: 20px;
 	margin-top: 0.64em;
+	position: relative;
 }
 
 [data-group=main][data-role=container].margin_top {
