@@ -144,6 +144,21 @@ hr[data-role=sections_divider] {
   z-index: 1;
 }
 
+[data-group=section_grid][data-role=item] {
+	border: 1px;
+  border-style: dashed;
+  border-color: #c0c0c0;
+  padding: 10px;
+  border-radius: 12px;
+
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+    
+
 [data-role=section_grid] a[data-role=section_link] .bold {
   /*border: 1px solid;
   padding: 4px 10px;
