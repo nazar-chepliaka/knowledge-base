@@ -9,3 +9,4 @@
 todo:
 + додати візуал із футуристичною спорудою як тут: https://kprverse.com/
 + чекнути можливість використання компонентів з цього відео: https://youtu.be/1RHDhtbqo94
++ https://github.com/ComponentDriven/csf
