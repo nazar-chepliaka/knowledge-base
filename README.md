@@ -13,3 +13,4 @@ todo:
 
 ## Див. також
 + https://uk.wikipedia.org/wiki/DMOZ
++ https://uk.wikipedia.org/wiki/Інституційний_репозитарій
